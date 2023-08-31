@@ -19,7 +19,7 @@ class CourseFactory extends Factory
         return [
             'name'=>fake()->jobTitle(),
             'description'=>fake()->realText(maxNbChars:100),
-            'maxScore'=> fake()->numberBetween(50,100),
+            'max_score'=> fake()->numberBetween(50,100),
         ];
     }
 }

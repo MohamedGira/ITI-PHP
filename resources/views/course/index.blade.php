@@ -27,7 +27,7 @@
                     <td>{{ $course->id }}</td>
                     <td>{{ $course->name }}</td>
                     <td>{{ $course->description }}</td>
-                    <td>{{ $course->maxScore }}</td>
+                    <td>{{ $course->max_score }}</td>
 
                     <td>
                         <form action="{{ route('course.show', $course->id) }}">

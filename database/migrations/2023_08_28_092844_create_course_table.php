@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('description');
-            $table->integer('maxScore')->default(100);
+            $table->integer('max_score')->default(100);
             $table->timestamps();
         });
     }       

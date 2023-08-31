@@ -23,7 +23,7 @@
                 <td>{{ $course->id }}</td>
                 <td>{{ $course->name ?? 'unknown' }}</td>
                 <td>{{ $course->description ?? 'unknown' }}</td>
-                <td>{{ $course->maxScore ?? 'unknown' }}</td>
+                <td>{{ $course->max_score ?? 'unknown' }}</td>
             
                 <td>
                     <form action="{{ route('course.index') }}">
