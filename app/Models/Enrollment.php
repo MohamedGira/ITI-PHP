@@ -9,6 +9,7 @@ class Enrollment extends Model
 {
     use HasFactory;
     protected $table='enrollment';
+    protected $guarded=[];
 
     function student(){
         return $this->belongsTo(Student::class);
